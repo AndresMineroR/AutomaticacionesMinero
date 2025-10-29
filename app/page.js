@@ -141,28 +141,35 @@ export default function Home() {
           </p>
           
           <div className="grid md:grid-cols-2 gap-8">
-            {/* Placeholder para videos - Reemplaza con tus videos reales */}
+            {/* Video 1 - UiPath Demo */}
             <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-              <div className="bg-gradient-to-br from-[#0A2540] to-[#1E3A5F] h-64 flex items-center justify-center">
-                <div className="text-center text-white">
-                  <div className="text-6xl mb-4">▶️</div>
-                  <p className="text-xl font-semibold">Video Demo: RPA en Acción</p>
-                  <p className="text-sm text-gray-300 mt-2">Próximamente</p>
-                </div>
+              <div className="relative pb-[56.25%] h-0">
+                <iframe 
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                  title="Demo RPA UiPath"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowFullScreen
+                ></iframe>
               </div>
               <div className="p-6">
-                <h4 className="text-xl font-bold text-[#0A2540] mb-2">Automatización de Facturas</h4>
-                <p className="text-gray-600">Proceso completo de extracción y validación automatizada de facturas.</p>
+                <h4 className="text-xl font-bold text-[#0A2540] mb-2">Automatización con UiPath</h4>
+                <p className="text-gray-600">Ejemplo de automatización RPA procesando datos en tiempo real.</p>
               </div>
             </div>
 
+            {/* Video 2 - Chatbot Demo */}
             <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-              <div className="bg-gradient-to-br from-[#1E3A5F] to-[#2A7C8F] h-64 flex items-center justify-center">
-                <div className="text-center text-white">
-                  <div className="text-6xl mb-4">▶️</div>
-                  <p className="text-xl font-semibold">Video Demo: Chatbot</p>
-                  <p className="text-sm text-gray-300 mt-2">Próximamente</p>
-                </div>
+              <div className="relative pb-[56.25%] h-0">
+                <iframe 
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                  title="Demo Chatbot"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowFullScreen
+                ></iframe>
               </div>
               <div className="p-6">
                 <h4 className="text-xl font-bold text-[#0A2540] mb-2">Chatbot Inteligente</h4>
