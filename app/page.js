@@ -32,7 +32,7 @@ export default function Home() {
               Soluciones tecnológicas para optimizar tus procesos
             </h2>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-PRUEBA            </p>
+           </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#contacto" className="inline-block bg-[#0A2540] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#1E3A5F] transition text-center">
